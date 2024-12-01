@@ -25,3 +25,7 @@
 
 1. Web-based using HTML, CSS and JavaScript.
 2. Avoid using 3rd-party library if possible. Deep dive JavaScript and learn something for real world projects!
+
+## Development
+
+Serve `index.html` with a web server.
