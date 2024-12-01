@@ -8,8 +8,8 @@
 
 ## Core Game Design
 - [ ] Define game resources:
-  - [ ] Money
-  - [ ] Reputation
+  - [x] Money
+  - [x] Reputation
   - [ ] Time
 - [ ] Create a progression map:
   - [ ] Early game: Freelance gigs.
@@ -22,7 +22,8 @@
 
 ## Gameplay Features
 - [ ] Basic project system:
-  - [ ] Project generation with attributes (difficulty, reward, deadline).
+  - [x] Project generation with attributes (reward).
+    - [ ] More attributes (difficulty, deadline).
   - [ ] Resource allocation mechanics (assign team members).
   - [ ] Success/failure outcomes.
 - [ ] Team management:
