@@ -1,4 +1,5 @@
 import { eventbus } from './engine/eventbus.js'
+import { timer } from './engine/timer.js'
 import { HUD } from './hud.js'
 import { Inbox } from './inbox.js'
 
@@ -43,6 +44,12 @@ class Game {
   start() {
     this.setMoney(0)
     this.setReputation(0)
+
+    timer.start()
+
+    setTimeout(() => {
+      timer.stop()
+    }, 10000)
   }
 }
 

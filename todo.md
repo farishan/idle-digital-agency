@@ -60,6 +60,7 @@
   - [ ] Enable local storage for progress persistence.
   - [ ] Optional cloud save integration.
 - [ ] Modular architecture for scalability.
+- [ ] Support dark mode.
 
 ## Testing and Iteration
 - [ ] Write unit tests for core mechanics.
