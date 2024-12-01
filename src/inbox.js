@@ -1,7 +1,7 @@
 import { add, getProjects, setProjects } from "./project.js"
 
 export class Inbox {
-  constructor({ root, onAccept }) {
+  constructor({ root, eventbus }) {
     const inboxDisplay = document.createElement('div')
     inboxDisplay.classList.add('inbox-display')
     inboxDisplay.innerHTML = '<h2>Inbox</h2>'
@@ -44,7 +44,8 @@ export class Inbox {
         acceptProjectButton.textContent = 'Accept'
         projectAcceptButtonTd.append(acceptProjectButton)
         acceptProjectButton.onclick = () => {
-          onAccept(project)
+          eventbus.emit('inbox/accept', project)
+
           setProjects(projects.filter(p => p.id != project.id))
           renderProjects()
         }
