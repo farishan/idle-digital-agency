@@ -7,12 +7,13 @@
 - [x] Write an initial README with project overview and goals.
 
 ## Core Game Design
-- [ ] Define game resources:
+- [x] Define game resources:
   - [x] Money
   - [x] Reputation
-  - [ ] Time
+  - [x] Time
 - [ ] Create a progression map:
   - [ ] Early game: Freelance gigs.
+    - [ ] Freelance gigs generation
   - [ ] Mid-game: Scaling to a small agency.
   - [ ] Late game: Automation and global dominance.
 - [ ] Brainstorm random events and challenges:

@@ -2,6 +2,7 @@ import { eventbus } from './engine/eventbus.js'
 import { timer } from './engine/timer.js'
 import { HUD } from './hud.js'
 import { Inbox } from './inbox.js'
+import { ProjectGenerator } from './project-generator.js'
 
 class Game {
   root = document.querySelector('#root')
@@ -57,7 +58,8 @@ const game = new Game({
   /* @TODO fix UI layout regardless how modules inited */
   modules: [
     HUD,
-    Inbox
+    Inbox,
+    ProjectGenerator
   ]
 })
 

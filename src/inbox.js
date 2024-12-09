@@ -56,5 +56,9 @@ export class Inbox {
     renderProjects()
 
     root.append(inboxDisplay)
+
+    eventbus.on('project-generator/added', () => {
+      renderProjects()
+    })
   }
 }

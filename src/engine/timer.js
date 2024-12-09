@@ -38,6 +38,8 @@ class Timer {
 
   stop() {
     this.shouldRun = false
+    clearInterval(this.interval)
+    this.isRunning = false
   }
 }
 
